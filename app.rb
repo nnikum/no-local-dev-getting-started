@@ -10,7 +10,7 @@ get "/" do
 end
 
 
-class Contact < ActiveRecord::Base
+class Account < ActiveRecord::Base
   self.table_name = 'salesforcennikumdevorg.account'
 end
 
